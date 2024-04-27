@@ -142,8 +142,92 @@
 // console.log(status);
 
 // ======= Ternary Operators ======
-let age = 0;
-let studentCard = true;
+// let age = 0;
+// let studentCard = true;
 
-let status = age && studentCard;
-console.log(status);
+// let status = age && studentCard;
+// console.log(status);
+
+// ======= Functions ======
+
+// function abc() {
+//   console.log("abc function");
+//   return function () {
+//     console.log("Inside Function");
+//   };
+// }
+
+// abc()();
+
+// abc() is higherorder function
+// return wala function is callback function
+
+// function abc(message) {
+//   console.log(message);
+// }
+
+// function xyz(message) {
+//   return message;
+// }
+
+// abc(xyz("Helloooo ...!"));
+
+// function abc() {
+//   let a = "20";
+//   let b = "30";
+//   let c = "40";
+//   console.log(a + b + c);
+// }
+// abc();
+
+// let a = () => {
+//   let a = "20";
+//   let b = "30";
+//   let c = "40";
+//   console.log(a + b + c);
+// };
+// a();
+// create function
+// call function
+// disperse function
+
+// let a = (message, age) => {
+//   console.log(message, age);
+// };
+
+// let a = message => {
+//   console.log(message);
+// };
+// a("asdzds");
+// let a = (message) => console.log(message);
+// a("asdzds");
+
+// let a = () => {
+//   return "ABC";
+// };
+
+// let a = () => "ABC";
+// let b = a();
+// console.log(b);
+
+// lexical scoping
+
+// let a = "abc";
+
+// let abc = () => {
+//   let a = "xyz";
+//   let b = () => {
+//     let a = "mno";
+//     console.log(a);
+//   };
+//   b();
+// };
+
+// abc();
+
+// let a = (message = "Hello Message is Not available") => {
+//   console.log(message);
+// };
+
+// a("Show Message");
+// a();
